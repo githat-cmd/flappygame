@@ -1,18 +1,11 @@
 body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #87CEEB; /* Fallback background color */
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
 }
 
-canvas {
-    display: block;
-    width: 100vw; /* Full viewport width */
-    height: 100vh; /* Full viewport height */
-    background-image: url("./flappybirdbg.png"); /* Ensure this image path is correct */
-    background-size: cover;
-    background-position: center;
+#board {
+    /* background-color: skyblue; */
+    background-image: url("./flappybirdbg.png");
 }
 
 
