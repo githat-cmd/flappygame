@@ -1,18 +1,18 @@
 body {
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    overflow: hidden; /* Prevent scrollbars */
-    font-family: 'Courier New', Courier, monospace; /* Font styling */
-    text-align: center; /* Center text (if needed) */
-    background-color: #87CEEB; /* Background color in case the image doesn't load */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #87CEEB; /* Fallback background color */
 }
 
 canvas {
-    display: block; /* Remove default inline spacing */
-    width: 100vw; /* Make canvas full viewport width */
-    height: 100vh; /* Make canvas full viewport height */
-    background-image: url("./flappybirdbg.png"); /* Background image for the canvas */
-    background-size: cover; /* Ensure the background image covers the entire canvas */
-    background-position: center; /* Center the background image */
+    display: block;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    background-image: url("./flappybirdbg.png"); /* Ensure this image path is correct */
+    background-size: cover;
+    background-position: center;
 }
+
 
