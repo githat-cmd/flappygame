@@ -144,6 +144,25 @@ function placePipes() {
     }
     pipeArray.push(bottomPipe);
 }
+const canvas = document.getElementById('gameCanvas');
+const ctx = canvas.getContext('2d');
+
+// Function to handle touch events
+function handleTouchStart(e) {
+  // Handle the touch event here
+  // For example: Start or restart the game
+}
+
+// Function to handle mouse events
+function handleMouseDown(e) {
+  // Handle the mouse event here
+  // For example: Start or restart the game
+}
+
+// Adding event listeners
+canvas.addEventListener('touchstart', handleTouchStart, false);
+canvas.addEventListener('mousedown', handleMouseDown, false);
+
 
 function moveBird(e) {
     if (e.code == "Space" || e.code == "ArrowUp" || e.code == "KeyX") {
